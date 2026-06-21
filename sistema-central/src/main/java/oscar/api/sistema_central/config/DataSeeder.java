@@ -5,7 +5,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import oscar.api.sistema_central.model.Usuario;
+import oscar.api.sistema_central.model.Voto;
 import oscar.api.sistema_central.repository.UsuarioRepository;
+import oscar.api.sistema_central.repository.VotoRepository;
 
 @Configuration
 public class DataSeeder {
