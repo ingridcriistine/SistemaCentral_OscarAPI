@@ -7,6 +7,7 @@ import org.springframework.web.server.ResponseStatusException;
 import jakarta.transaction.Transactional;
 import oscar.api.sistema_central.dto.ApiResponse;
 import oscar.api.sistema_central.dto.VotoRequest;
+import oscar.api.sistema_central.model.Usuario;
 import oscar.api.sistema_central.model.Voto;
 import oscar.api.sistema_central.repository.UsuarioRepository;
 import oscar.api.sistema_central.repository.VotoRepository;

@@ -9,6 +9,15 @@ public class ApiResponse {
         this.mensagem = mensagem;
     }
 
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public void setMensagem(String mensagem) {
+        this.mensagem = mensagem;
+    }
+
     public String getStatus() { return status; }
+    
     public String getMensagem() { return mensagem; }
 }
